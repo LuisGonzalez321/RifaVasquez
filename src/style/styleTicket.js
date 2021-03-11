@@ -1,0 +1,126 @@
+import React from 'react';
+import {Dimensions, StyleSheet} from 'react-native';
+
+const widthScreen = Dimensions.get('window').width;
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'rgba(255,255,255,1)',
+  },
+  containerElements: {
+    flex: 1,
+    backgroundColor: 'rgba(255,255,255,1)',
+    width: Dimensions.get('window').width,
+    alignItems: 'flex-start',
+    justifyContent: 'flex-end',
+  },
+  rect: {
+    height: 50,
+    backgroundColor: 'rgba(255,255,255,1)',
+    flexDirection: 'row',
+    width: Dimensions.get('window').width,
+  },
+  loremIpsum: {
+    fontFamily: 'roboto-regular',
+    color: 'rgba(0,27,72,1)',
+    height: 20,
+    width: 176,
+    marginLeft: 20,
+    marginTop: 15,
+  },
+  rect2: {
+    height: 50,
+    backgroundColor: 'rgba(255,255,255,1)',
+    flexDirection: 'row',
+    width: Dimensions.get('window').width,
+    justifyContent: 'space-around',
+    alignItems: 'center',
+  },
+  monto: {
+    fontFamily: 'roboto-regular',
+    color: 'rgba(0,27,72,1)',
+    height: 21,
+    width: 70,
+  },
+  c0002: {
+    fontFamily: 'roboto-regular',
+    color: 'rgba(0,27,72,1)',
+    height: 21,
+    width: 88,
+  },
+  numero: {
+    fontFamily: 'roboto-regular',
+    color: 'rgba(0,27,72,1)',
+    height: 22,
+    width: 88,
+    textAlign: 'center',
+    fontSize: 20,
+  },
+  group: {
+    height: 60,
+    backgroundColor: 'rgba(255,255,255,1)',
+    flexDirection: 'row',
+    width: Dimensions.get('window').width,
+    justifyContent: 'space-around',
+    alignItems: 'center',
+  },
+  premio2: {
+    fontFamily: 'roboto-regular',
+    color: 'rgba(0,27,72,1)',
+    height: 21,
+    width: 70,
+  },
+  c0003: {
+    fontFamily: 'roboto-regular',
+    color: 'rgba(0,27,72,1)',
+    height: 21,
+    width: 88,
+  },
+  text: {
+    fontFamily: 'roboto-regular',
+    color: 'rgba(0,27,72,1)',
+    height: 30,
+    width: 88,
+    textAlign: 'center',
+    fontSize: 20,
+    alignSelf: 'center',
+  },
+  containerItems: {
+    height: 450,
+    backgroundColor: 'rgba(255,255,255,1)',
+    width: widthScreen,
+    top: 10,
+    left: 0,
+    marginTop: 20,
+    justifyContent: 'space-around',
+  },
+  containerButtons1: {
+    width: widthScreen,
+    height: 50,
+    backgroundColor: 'rgba(255,255,255,1)',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-around',
+  },
+  containerButtons2: {
+    width: widthScreen,
+    height: 50,
+    backgroundColor: 'rgba(255,255,255,1)',
+    flexDirection: 'row',
+    alignItems: 'center',
+    position: 'relative',
+    top: 10,
+    justifyContent: 'space-around',
+  },
+  materialButtonHamburger: {
+    width: 70,
+    height: 50,
+    backgroundColor: 'rgba(1,138,189,1)',
+  },
+  materialButtonHamburger1: {
+    width: 70,
+    height: 50,
+    backgroundColor: '#e06219',
+  },
+});

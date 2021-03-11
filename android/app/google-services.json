@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "652615829994",
+    "project_id": "rifavasquez-d5974",
+    "storage_bucket": "rifavasquez-d5974.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652615829994:android:b10f3df5c1b94d73afca93",
+        "android_client_info": {
+          "package_name": "com.rifavasquez"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652615829994-lud7493kouoj6kdm3rbu7vrtt6fuh6gh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARTjEP7qW0C__Kb6HkOTv3956p3IOwrL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652615829994-lud7493kouoj6kdm3rbu7vrtt6fuh6gh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
